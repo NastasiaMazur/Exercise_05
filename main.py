@@ -11,7 +11,7 @@ def selection_sort(numbers: list):
         temp = numbers[fill_slot]
         numbers[fill_slot] = numbers[position_of_max]
         numbers[position_of_max] = temp
-        return numbers
+
 
 # Usage
 my_list = [3, 7, 5, 4, 2, 1, 6]
